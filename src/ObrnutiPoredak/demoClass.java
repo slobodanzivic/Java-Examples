@@ -8,7 +8,7 @@ public class demoClass {
 		// Napisati program koji ispisuje brojeve od 1 do unetog broja N obrnutim
 		// poretkom.
 		// Primer za N =7
-		// 7 s6 5 4 3 2 1
+		// 7 6 5 4 3 2 1
 
 		System.out.println("Unesite broj: ");
 		Scanner sc = new Scanner(System.in);
