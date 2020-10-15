@@ -18,6 +18,7 @@ public class NajveciBroj {
 		for (int i = 0; i < n; i++) {
 			System.out.println("Uneti broj: ");
 			x = sc.nextInt();
+			sc.close();
 			if (x > max) {
 				max = x;
 			}
