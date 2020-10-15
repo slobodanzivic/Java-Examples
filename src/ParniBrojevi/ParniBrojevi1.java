@@ -1,6 +1,5 @@
 package ParniBrojevi;
 
-import java.util.Scanner;
 
 public class ParniBrojevi1 {
 
