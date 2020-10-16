@@ -8,11 +8,11 @@ public class ProizvodBrojeva {
 		int i, p = 1;
 
 		for (i = 1; i <= 5; i++) {
-			if (i % 2 == 0) 
-				System.out.println(i);
+			if (i % 2 == 0) {
 				p = p * i;
+			}
+
 		}
 		System.out.println("proizvod je: " + p);
 	}
-
 }
