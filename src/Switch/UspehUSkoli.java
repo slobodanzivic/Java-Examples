@@ -14,11 +14,11 @@ public class UspehUSkoli {
 		// 5 - Odlican
 		// Zadatak uraditi koriscenjem SWITCH strukture.
 
-		System.out.println("Unesite broj od 1 do 5: ");
+		System.out.println("Unesite ocenu od 1 do 5: ");
 		Scanner sc = new Scanner(System.in);
 		int broj = sc.nextInt();
 
-		String poruka = "Uneli ste pogresan broj!";
+		String poruka = "Uneli ste pogresnu ocenu!";
 
 		switch (broj) {
 		case 1:
@@ -37,7 +37,7 @@ public class UspehUSkoli {
 			poruka = "Odlican";
 			break;
 		default:
-			poruka = "Uneli ste pogresan broj!";
+			poruka = "Uneli ste pogresnu ocenu!";
 			break;
 
 		}
