@@ -10,7 +10,7 @@ public class Array {
 		System.out.println("Unesite n: ");
 		int n = sc.nextInt();
 		
-		int niz[] = new int[n]; // rezervisanje prostora za niz od n clanova
+		int [] niz  = new int[n]; // rezervisanje prostora za niz od n clanova
 		System.out.println("Unesite clanove niza:");
 		for (int i = 0; i < niz.length; i++)
 			niz[i] = sc.nextInt(); // ucitaj niz[i] - i-ti clan niza
